@@ -1,0 +1,18 @@
+.group-container {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group input {
+    width: 50px;
+}
