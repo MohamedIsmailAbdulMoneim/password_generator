@@ -6,13 +6,12 @@ import Options from './components/Options/Options';
 
 
 const App = () => {
- 
 
   return (
     <div className='container'>
       <Header />
       <DataAccess />
-      <Options />
+      <Options  />
     </div>
   );
 }

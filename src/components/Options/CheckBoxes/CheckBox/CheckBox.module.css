@@ -1,0 +1,14 @@
+.group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group input {
+    width: 50px;
+}
+
+.group label {
+    text-transform: capitalize;
+}
