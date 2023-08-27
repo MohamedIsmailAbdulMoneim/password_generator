@@ -22,7 +22,7 @@ const DataAccess = () => {
                     <span>{password}</span>
                     <i onClick={clickHandler} className={`fa-solid fa-rotate-right ${classes.rotate}`}></i>
                 </div>
-                <button className={classes['cpy-btn']}>
+                <button onClick={() => navigator.clipboard.writeText(password)} className={classes['cpy-btn']}>
                     <i className="fa-solid fa-copy"></i>
                     Copy
                 </button>
