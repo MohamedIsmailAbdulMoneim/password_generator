@@ -33,7 +33,6 @@ export const generatePass = () => {
 
 export const getComponents = (updatedComponents) => {
     components = updatedComponents
-    console.log(components);
 }
 
 export const getLength = (updatedLength) => {
